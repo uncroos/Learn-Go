@@ -11,5 +11,5 @@ func lebAndUpper(name string) (int, string) {
 func main() {
 	// name := "yohan"과 var name String = "yohan"은 같은 코드이다.
 	//name := "yohan" //go가 type을 알아서 결정
-
+	totalLenght, upperName := lebAndUpper("yohan")
 }
