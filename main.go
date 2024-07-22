@@ -6,14 +6,15 @@ import "fmt"
 
 func superAdd(numbers ...int) int {
 	total := 0
-	for index, number := range numbers {
-		fmt.Println(index, number)
+	for _, number := range numbers {
+		total += number
 	}
-	return 1
+	return total
 }
 
 func main() {
 	// name := "yohan"과 var name String = "yohan"은 같은 코드이다.
 	//name := "yohan" //go가 type을 알아서 결정
-	superAdd(1, 2, 3, 4, 5)
+	result := superAdd(1, 2, 3, 4, 5)
+	fmt.Println(result)
 }
