@@ -3,7 +3,9 @@ package main
 //fmt.Printl <= print할 때 사용
 
 func superAdd(number ...int) int {
-
+	for number := numbers{
+		
+	}
 }
 
 func main() {
