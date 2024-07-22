@@ -5,6 +5,7 @@ import "fmt"
 //fmt.Printl <= print할 때 사용
 
 func superAdd(numbers ...int) int {
+	total := 0
 	for index, number := range numbers {
 		fmt.Println(index, number)
 	}
