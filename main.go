@@ -6,7 +6,7 @@ import "fmt"
 
 func superAdd(numbers ...int) int {
 	total := 0
-	for _, number := range numbers {
+	for number := range numbers {
 		total += number
 	}
 	return total
