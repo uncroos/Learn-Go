@@ -20,4 +20,8 @@ func main() {
 	// name := "yohan"과 var name string = "yohan"은 같은 코드이다.
 	// name := "yohan" // go가 type을 알아서 결정
 	fmt.Println(canIDrink(18))
+	a := 10
+	fmt.Println(a)
+	dks := "안요한"
+	fmt.Println(dks)
 }
